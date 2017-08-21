@@ -12,8 +12,12 @@ fn factorial(value: u32) -> u32 {
 }
 
 
-fn generate(nth: u32, vchars: &Vec<char>, olength: u32, tlength: u32) -> u32 {
-    10
+fn generate(n: u32, vchars: &Vec<char>, olength: u32, tlength: u32) -> String {
+    let mut seed = String::new();
+    for alphabet in n.to_string().chars() {
+        seed += &alphabet.to_string();
+    }
+    seed
 }
 
 
@@ -33,8 +37,9 @@ fn main() {
                 .open(textfile)
                 .unwrap();
 
-    for nth in 0..tcombinations {
-        let seed = generate(nth, &vchars, olength, tlength);
+    for n in 0..tcombinations {
+        let seed = generate(n, &vchars, olength, tlength);
+        println!("{}", seed);
         //writeln!(textfile, seed);
     }
 }
