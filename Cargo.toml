@@ -1,0 +1,13 @@
+[package]
+name = "wordlist-generator"
+version = "0.1.0"
+authors = ["ritiek <ritiekmalhotra123@gmail.com>"]
+description = "Generate your custom wordlists"
+repository = "https://github.com/ritiek/wordlist-generator"
+readme = "README.md"
+keywords = []
+categories = []
+license = "MIT"
+
+[dependencies]
+clap = "2.24"
