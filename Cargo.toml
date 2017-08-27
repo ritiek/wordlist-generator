@@ -1,6 +1,6 @@
 [package]
 name = "wordlist-generator"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["ritiek <ritiekmalhotra123@gmail.com>"]
 description = "A handy wordlist generator"
 repository = "https://github.com/ritiek/wordlist-generator"

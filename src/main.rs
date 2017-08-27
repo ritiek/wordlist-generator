@@ -39,7 +39,7 @@ fn make_permutations(combinations: Vec<Vec<char>>) -> Vec<Vec<char>> {
 
 fn main() {
 	let arguments = App::new("wordlist-generator")
-                    .version("0.1.0")
+                    .version("0.1.1")
                     .author("Ritiek Malhotra <ritiekmalhotra123@gmail.com>")
                     .about("A handy wordlist generator")
 
