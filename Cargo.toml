@@ -13,3 +13,6 @@ license = "MIT"
 itertools = "0.6"
 permutohedron = "0.2"
 clap = "2.24"
+
+[[bin]]
+name = "wordlist"
