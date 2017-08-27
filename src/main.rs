@@ -66,7 +66,9 @@ fn main() {
     charlist.sort();
 
     let combinations = make_combinations(charlist, olength);
-    let permutations = make_permutations(combinations);
+    let mut permutations = make_permutations(combinations);
+    permutations.sort();
+    permutations.dedup();
 
     for permutation in permutations {
         let stringform: String = permutation.into_iter().collect();
