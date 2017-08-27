@@ -31,6 +31,8 @@ fn make_permutations(combinations: Vec<Vec<char>>) -> Vec<Vec<char>> {
             permutations.push(permutation.to_vec())
         });
     }
+    permutations.sort();
+    permutations.dedup();
     permutations
 }
 
@@ -66,9 +68,7 @@ fn main() {
     charlist.sort();
 
     let combinations = make_combinations(charlist, olength);
-    let mut permutations = make_permutations(combinations);
-    permutations.sort();
-    permutations.dedup();
+    let permutations = make_permutations(combinations);
 
     for permutation in permutations {
         let stringform: String = permutation.into_iter().collect();
