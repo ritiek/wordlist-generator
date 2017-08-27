@@ -37,6 +37,7 @@ ARGS:
 
 ## Examples
 
+- Generate wordlist from characters `a`, `b` and `c`.
 ```
 $ wordlist abc
 abc
@@ -47,6 +48,7 @@ cab
 cba
 ```
 
+- Generate wordlist of specific output length
 ```
 $ wordlist abc123 -o 2
 12
@@ -81,6 +83,7 @@ ca
 cb
 ```
 
+- Automatically take care of duplicates
 ```
 $ wordlist abaca -o 3
 aaa
