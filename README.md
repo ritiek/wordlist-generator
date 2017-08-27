@@ -101,6 +101,11 @@ cab
 cba
 ```
 
+- Redirect the output wordlist to some text file:
+```
+$ wordlist xyz > textfile.txt
+```
+
 ## Contributing
 
 - Found a bug/ have an idea? Feel free to open your ticket in the [issues section](https://github.com/ritiek/wordlist-generator/issues).
