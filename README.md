@@ -22,7 +22,7 @@ Use the command `wordlist` to start using the tool.
 
 ```
 USAGE:
-    wordlist-generator [OPTIONS] <CHARS>
+    wordlist [OPTIONS] <CHARS>
 
 FLAGS:
     -h, --help       Prints help information
