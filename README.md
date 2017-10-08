@@ -2,6 +2,8 @@
 
 A handy wordlist generator.
 
+**Note:** This code is not performance optimized at all at the moment.
+
 ## Installation
 
 ```
